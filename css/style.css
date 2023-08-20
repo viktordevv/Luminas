@@ -1,0 +1,174 @@
+@media (max-width: 767px) {
+  .navbar {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .col-5.text-left {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .new {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .slider {
+    max-height: 50vh;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  background-color: #b57f54;
+}
+
+.navbar {
+  background-color: #b57f54;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.nav-item:hover {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.555);
+}
+
+.navbar-brand {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 3rem;
+  padding: 0 1rem;
+  margin: 0;
+}
+
+.nav-link {
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  font-size: 2rem;
+  margin-right: 3rem;
+}
+
+.navbar-toggler {
+  border: none;
+  background-color: #b57f54;
+}
+
+/* Resto del CSS como antes */
+
+.content-section {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.image-slider {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box {
+  flex: 1;
+  background-color: #ededed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/* Resto del CSS como antes */
+
+.slider img {
+  width: 100%;
+  height: auto;
+}
+
+.centered-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tittle {
+  color: black;
+  font-size: 1.25rem;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  margin: 0%;
+}
+
+.new {
+  color: black;
+  font-size: 16rem;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  margin: 0%;
+}
+
+.new:hover {
+  color: #ffffff;
+}
+
+/* Loader 
+
+.lds-heart {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+  transform: rotate(45deg);
+  transform-origin: 40px 40px;
+}
+.lds-heart div {
+  top: 32px;
+  left: 32px;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: #fff;
+  animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.lds-heart div:after,
+.lds-heart div:before {
+  content: " ";
+  position: absolute;
+  display: block;
+  width: 32px;
+  height: 32px;
+  background: #fff;
+}
+.lds-heart div:before {
+  left: -24px;
+  border-radius: 50% 0 0 50%;
+}
+.lds-heart div:after {
+  top: -24px;
+  border-radius: 50% 50% 0 0;
+}
+@keyframes lds-heart {
+  0% {
+    transform: scale(0.95);
+  }
+  5% {
+    transform: scale(1.1);
+  }
+  39% {
+    transform: scale(0.85);
+  }
+  45% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+*/
