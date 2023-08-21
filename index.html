@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <title>Luminas</title>
     <!-- Link to Bootstrap CSS -->
     <link
@@ -28,9 +28,14 @@
     <!-- Link to Slick Carousel JS -->
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script type="text/javascript" src="js/slick.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.js"></script>
   </head>
   <body>
-
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">Luminas</a>
@@ -48,13 +53,13 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Shop</a>
+            <a class="nav-link" href="#">Tienda</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#">Contacto</a>
           </li>
         </ul>
       </div>
@@ -63,19 +68,21 @@
 
     <!-- Section Header -->
 
-    <div class="content-section">
+    <div class="content-section aos" data-aos="fade-up">
       <div class="container">
         <div class="row">
-            <div class="col-5 text-left">
-                <div class="tittle ">
-                <p>Our candles <strong>are made with</strong> the finest</p>
-              <p>ingredients and are hand-poured with <strong>love</strong>.</p>
+          <div class="col-5 text-left aos" data-aos="fade-right">
+            <div class="tittle">
+              <p>
+                Nuestras velas <strong>están hechos con</strong> los mejores
+              </p>
+              <p>ingredientes y se vierten a mano con <strong>amor</strong>.</p>
             </div>
-                <div class="centered-text">
-                  <p class="new">new</p>
-                </div>
-              </div>
-          <div class="col-md-7">
+            <div class="centered-text">
+              <p class="new">new</p>
+            </div>
+          </div>
+          <div class="col-md-7 aos" data-aos="fade-right">
             <!-- You can add your image slider here -->
             <div class="slider">
               <div>
@@ -99,16 +106,133 @@
       </div>
     </div>
 
+    <div class="second-section bg-light aos" data-aos="fade-left">
+      <div class="container">
+        <div class="row bg-light">
+          <div class="col-md-4 grid-item">
+            <div class="product">
+              <div class="product-image">
+                <img src="images/image-grid.png" alt="Grid Image 1" />
+                <img src="images/slider-image-1.png" alt="Grid Image 1 Hover" class="hover-image" />
+              </div>
+              <p class="product-name">Della nonna</p>
+              <p class="product-price">$20</p>
+              <div class="product-rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-4 grid-item">
+            <div class="product">
+              <div class="product-image">
+                <img src="images/image-grid.png" alt="Grid Image 1" />
+                <img src="images/slider-image-1.png" alt="Grid Image 1 Hover" class="hover-image" />
+              </div>
+              <p class="product-name">Atardecer playero</p>
+              <p class="product-price">$20</p>
+              <div class="product-rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 grid-item">
+            <div class="product">
+              <div class="product-image">
+                <img src="images/image-grid.png" alt="Grid Image 1" />
+                <img src="images/slider-image-1.png" alt="Grid Image 1 Hover" class="hover-image" />
+              </div>
+              <p class="product-name">Campos de lavanda</p>
+              <p class="product-price">$20</p>
+              <div class="product-rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 grid-item">
+            <div class="product">
+              <div class="product-image">
+                <img src="images/image-grid.png" alt="Grid Image 1" />
+                <img src="images/slider-image-1.png" alt="Grid Image 1 Hover" class="hover-image" />
+              </div>
+              <p class="product-name">Brisa de menta</p>
+              <p class="product-price">$20</p>
+              <div class="product-rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 grid-item">
+            <div class="product">
+              <div class="product-image">
+                <img src="images/image-grid.png" alt="Grid Image 1" />
+                <img src="images/slider-image-1.png" alt="Grid Image 1 Hover" class="hover-image" />
+              </div>
+              <p class="product-name">Lluvia del bosque</p>
+              <p class="product-price">$20</p>
+              <div class="product-rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 grid-item">
+            <div class="product">
+              <div class="product-image">
+                <img src="images/image-grid.png" alt="Grid Image 1" />
+                <img src="images/slider-image-1.png" alt="Grid Image 1 Hover" class="hover-image" />
+              </div>
+              <p class="product-name">Hada nocturna</p>
+              <p class="product-price">$20</p>
+              <div class="product-rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <script>
       $(document).ready(function () {
         $(".slider").slick({
           autoplay: true, // Reproducción automática
-          autoplaySpeed: 2000, // Intervalo de cambio (en milisegundos)
+          autoplaySpeed: 1500, // Intervalo de cambio (en milisegundos)
           dots: false, // Muestra los puntos de navegación
           arrows: false, // Oculta las flechas de navegación
         });
       });
     </script>
+
+<script>
+  AOS.init({
+    duration: 700, // Duración de la animación (en milisegundos)
+    once: true, // Animación solo ocurre una vez por elemento mientras se desplaza hacia abajo
+  });
+</script>
 
     <script
       type="text/javascript"
@@ -124,6 +248,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 
-   <!-- <div class="lds-heart"><div></div></div> -->
+    <!-- <div class="lds-heart"><div></div></div> -->
   </body>
 </html>

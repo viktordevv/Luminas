@@ -24,7 +24,13 @@
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
   background-color: #b57f54;
+
 }
 
 .navbar {
@@ -62,6 +68,7 @@
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  background-color: #b57f54;
 }
 
 .image-slider {
@@ -88,7 +95,7 @@
 
 .slider img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .centered-text {
@@ -101,19 +108,95 @@
   color: black;
   font-size: 1.25rem;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
-  margin: 0%;
+  margin: 0;
 }
 
 .new {
   color: black;
-  font-size: 16rem;
+  font-size: 15rem;
   font-family: "Zen Kaku Gothic Antique", sans-serif;
-  margin: 0%;
+  margin: 0;
 }
 
 .new:hover {
   color: #ffffff;
 }
+
+.grid-item {
+  padding: 20px;
+  text-align: center;
+  border-bottom: 0.010rem solid #b6b5b5;
+
+}
+
+.grid-item img {
+  max-width: 100%;
+}
+
+.grid-item p {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+.second-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 20px;
+}
+
+
+/* ... (otros estilos CSS) */
+
+/* Estilos del producto */
+.product {
+  position: relative;
+}
+
+.product-image {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-image img.hover-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.product:hover .hover-image {
+  opacity: 1;
+}
+
+.product-name {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 10px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+.product-price {
+  font-size: 1rem;
+  margin-top: 5px;
+  color: #666;
+}
+
+.product-rating {
+  margin-top: 5px;
+}
+
+.star {
+  color: #ffcc00;
+  font-size: 1rem;
+}
+
+
 
 /* Loader 
 
