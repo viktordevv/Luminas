@@ -184,7 +184,7 @@ body {
 .product-price {
   font-size: 1rem;
   margin-top: 5px;
-  color: #666;
+  color: #000000;
 }
 
 .product-rating {
@@ -192,10 +192,47 @@ body {
 }
 
 .star {
-  color: #ffcc00;
+  color: #000000;
   font-size: 1rem;
 }
 
+/* Estilos para el primer producto */
+.first-product .product-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+.product-description  {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+  text-align: left;
+  text-align: justify;
+}
+
+.shop-link {
+  display: inline-block;
+  font-size: 1rem;
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+}
+
+.shop-link .arrow {
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.shop-link:hover .arrow {
+  transform: translateX(5px);
+}
 
 
 /* Loader 
